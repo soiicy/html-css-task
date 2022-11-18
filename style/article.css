@@ -3,15 +3,46 @@
     margin: auto;
 }
 
-.headInfo {
+.headName {
     display: block;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 50px;
+    color: #574931;
+}
+
+/* #row1:hover {
+    transform: scale(1.2);
+}
+
+#row2:hover {
+    transform: scale(1.2);
+}
+
+#row3:hover {
+    transform: scale(1.2);
+} */
+
+
+.horizLines {
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
+.priceRows {
+    font-size: larger;
+    /* background: url('../img/article-photos/price-list-background.jpg'); */
+    border-radius: 50%;
+    box-shadow: -5px -5px 5px #fde394;
+    margin: auto;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
 
-.paragraph {
-    width: 200px;
+.priceRows:hover {
+    transform:scale(1.5);
+    transition: 0.5s;
 }
