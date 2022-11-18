@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Beauty Salon</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -14,27 +14,60 @@
 </head>
 <body id="body">
 
-    <!-- #header starts -->
-    <div id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark>
-            <a href="#" class="navbar-brand">
-                <img src="img/nav-bar/logo.png" width="100" height="100" alt="logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-conrols="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
+    <div class="text-center" id="loader">
+        <div id="spinner" class="spinner-border spinner-border-lg" role="status"></div>
     </div>
 
-    <!-- #article starts -->
-    <div id="article">
+    <div id="preloader-finished">
+        
+        
 
+
+        <!-- #header starts -->
+        <div id="header">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="img/navbar-photos/logo.png" width="50" height="50" alt="logo">
+                </a>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-conrols="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse show" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Price List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacts</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- #article starts -->
+        <div id="article">
+            <img src="img/article-photos/salon-image1.jfif" class="img-fluid" alt="...">
+        </div>
+
+        <div class="headInfo">
+            <h1>Beauty Salon's Name</h1>
+        </div>
+
+        <!-- #footer starts -->
+        <div id="footer">
+
+        </div>
     </div>
 
-    <!-- #footer starts -->
-    <div id="footer">
-
-    </div>
 </body>
 </html>
