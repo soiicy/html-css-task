@@ -5,5 +5,16 @@
 
 .headInfo {
     display: block;
-    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.infoBlock1 {
+    display: 
+}
+
+
+.paragraph {
+    width: 200px;
 }
