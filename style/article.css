@@ -15,9 +15,7 @@
 
 .horizLines {
     width: 50%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px auto 15px auto;
 }
 
 
@@ -30,7 +28,30 @@
 
 .card {
     background-color: rgba(255,107,138,0);
-    margin: auto;
+    margin: 2px 5px 12px 20%;
+    border: none;
+    box-shadow: 0px 2px 2px #ccc;
+}
+
+.card2 {
+    background-color: rgba(255,107,138,0);
+    margin: 2px 5px 12px 40%;
+    border: none;
+    box-shadow: 0px 2px 2px #ccc;
+    transition: 0.5s;
+}
+
+.price-card2 {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.card2:hover {
+    background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+    border-radius: 2%;
+    transform: scale(1.3);
+    transition: 0.5s;
+    z-index: 1001;
 }
 
 .card-price-name {
@@ -69,4 +90,25 @@
 
 .card-title {
     margin-bottom: 30px;
+}
+
+.card-photo {
+    height: 100%;
+    width: 100%;
+}
+
+.price-card {
+    transition: 0.5s;
+}
+
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+    border-radius: 2%;
+    transform: scale(1.3);
+    transition: 0.5s;
+    z-index: 1001;
 }
