@@ -11,17 +11,6 @@
     color: #574931;
 }
 
-/* #row1:hover {
-    transform: scale(1.2);
-}
-
-#row2:hover {
-    transform: scale(1.2);
-}
-
-#row3:hover {
-    transform: scale(1.2);
-} */
 
 
 .horizLines {
@@ -32,17 +21,52 @@
 }
 
 
-.priceRows {
-    font-size: larger;
-    /* background: url('../img/article-photos/price-list-background.jpg'); */
-    border-radius: 50%;
-    box-shadow: -5px -5px 5px #fde394;
-    margin: auto;
-    transition: 0.5s;
-    margin-bottom: 40px;
+
+
+.priceListColumn {
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
-.priceRows:hover {
-    transform:scale(1.5);
-    transition: 0.5s;
+.card {
+    background-color: rgba(255,107,138,0);
+    margin: auto;
+}
+
+.card-price-name {
+    text-align: left;
+    float: left;
+    width: 70%;
+}
+
+.card-price-cost {
+    float: right;
+    width: 30%;
+    color: #d66344;
+
+}
+
+
+.card-price-name-sale {
+    float: left;
+    width: 70%;
+}
+
+.card-price-cost-sale {
+    float: right;
+    width: 15%;
+    color: grey;
+    text-decoration: line-through;
+
+}
+
+
+.card-price-cost-Sed {
+    float: right;
+    width: 15%;
+    color: #d66344;
+}
+
+.card-title {
+    margin-bottom: 30px;
 }

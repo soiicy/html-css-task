@@ -7,7 +7,7 @@
 
 #loader {
     position: fixed;
-    animation: loader 3s ease-in;
+    animation: loader 3s ease-in-out;
     z-index: -12;
     opacity: 0;
     background: -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
