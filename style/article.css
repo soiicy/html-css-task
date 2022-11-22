@@ -1,0 +1,108 @@
+                /* photo and header starts */
+
+.img-fluid {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.headName {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: #574931;
+}
+
+
+                /* aboutus starts */
+
+.main-info {
+    font-size: 20px;
+}
+
+                /* prices starts */
+
+.card {
+    background-color: rgba(255,107,138,0);
+    border: none;
+    box-shadow: 0px 2px 2px #ccc;
+    transition: 0.5s;
+    background-color: -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+}
+
+
+.card2 {
+    background-color: rgba(255,107,138,0);
+    border: none;
+    box-shadow: 0px 2px 2px #ccc;
+    transition: 0.5s;
+    background-color: -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+    
+}
+
+    @media only screen and (max-width: 2000px) and (min-width: 993px) {
+
+        .card:hover {
+            background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+            border-radius: 2%;
+            transform: scale(1.3);
+            transition: 0.5s;
+            z-index: 1001;
+        }
+
+        .card2:hover {
+            background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+            border-radius: 2%;
+            transform: scale(1.3);
+            transition: 0.5s;
+            z-index: 1001;
+        }
+    }
+    
+.card-photo {
+    height: 100%;
+    width: 100%;
+}
+
+.card-title {
+    margin-bottom: 30px;
+}
+
+.price-card2 {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.card-price-name {
+    text-align: left;
+    float: left;
+    width: 70%;
+}
+
+.card-price-cost {
+    float: right;
+    width: 30%;
+    color: #d66344;
+
+}
+
+
+.card-price-name-sale {
+    float: left;
+    width: 70%;
+}
+
+.card-price-cost-sale {
+    float: right;
+    width: 15%;
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+.card-price-cost-Sed {
+    float: right;
+    width: 15%;
+    color: #d66344;
+}

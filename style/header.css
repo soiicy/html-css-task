@@ -1,0 +1,16 @@
+.navbar {
+    padding-left: 10px;
+    background-color: #574931;
+    font-size: 25px;
+}
+
+
+.navbar-brand{
+    transition: 1s;
+}
+
+    .navbar-brand:hover {
+        transform:rotate(-20deg) scale(1.3);
+        transition: 1s;
+    }
+
