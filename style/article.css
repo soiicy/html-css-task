@@ -1,6 +1,9 @@
+                /* photo and header starts */
+
 .img-fluid {
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 .headName {
@@ -11,26 +14,16 @@
     color: #574931;
 }
 
-
-
-.horizLines {
-    width: 50%;
-    margin: 15px auto 15px auto;
-}
-
-
-
-
-.priceListColumn {
-    margin-left: 50%;
-    margin-right: 50%;
-}
+                /* prices starts */
 
 .card {
     background-color: rgba(255,107,138,0);
     border: none;
     box-shadow: 0px 2px 2px #ccc;
+    transition: 0.5s;
+    background-color: -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
 }
+
 
 .card2 {
     background-color: rgba(255,107,138,0);
@@ -38,7 +31,35 @@
     box-shadow: 0px 2px 2px #ccc;
     transition: 0.5s;
     background-color: -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+    
+}
 
+    @media only screen and (max-width: 2000px) and (min-width: 993px) {
+
+        .card:hover {
+            background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+            border-radius: 2%;
+            transform: scale(1.3);
+            transition: 0.5s;
+            z-index: 1001;
+        }
+
+        .card2:hover {
+            background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
+            border-radius: 2%;
+            transform: scale(1.3);
+            transition: 0.5s;
+            z-index: 1001;
+        }
+    }
+    
+.card-photo {
+    height: 100%;
+    width: 100%;
+}
+
+.card-title {
+    margin-bottom: 30px;
 }
 
 .price-card2 {
@@ -70,7 +91,6 @@
     width: 15%;
     color: grey;
     text-decoration: line-through;
-
 }
 
 
@@ -79,45 +99,3 @@
     width: 15%;
     color: #d66344;
 }
-
-.card-title {
-    margin-bottom: 30px;
-}
-
-.card-photo {
-    height: 100%;
-    width: 100%;
-}
-
-.price-card {
-    transition: 0.5s;
-}
-
-.card {
-    transition: 0.5s;
-    background-color: -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
-
-}
-
-
-
-@media only screen and (max-width: 2000px) and (min-width: 993px) {
-
-    .card:hover {
-        background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
-        border-radius: 2%;
-        transform: scale(1.3);
-        transition: 0.5s;
-        z-index: 1001;
-    }
-
-    .card2:hover {
-        background:  -webkit-linear-gradient(right, #FAFAEA, #FFEFC2);
-        border-radius: 2%;
-        transform: scale(1.3);
-        transition: 0.5s;
-        z-index: 1001;
-    }
-  }
-
- 
