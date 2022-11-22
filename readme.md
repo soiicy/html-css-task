@@ -1,4 +1,4 @@
-#Beauty salon style markup
+<h1>Beauty salon style markup</h1>
 > Html & Css task for learning few more things like Bootstrap etc. and for check my skill for nowadays.
 
 Beauty and simple site likely for beauty salons
